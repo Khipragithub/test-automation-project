@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+   <suite name="SauceDemoSuite">
+
+	    <listeners>
+	        <listener class-name="reports.TestListener"/>
+	    </listeners>
+	    
+		<test name="LoginTest">
+	        <classes>
+	            <class name="tests.LoginTest"/>
+	        </classes>
+	    </test>
+	    <test name="HomeTest">
+	        <classes>
+	            <class name="tests.HomeTest"/>
+	        </classes>
+	    </test>
+	    <test name="AddToCartTest">
+	        <classes>
+	            <class name="tests.AddToCartTest"/>
+	        </classes>
+	    </test>
+	    <test name="CheckOutTest">
+	        <classes>
+	            <class name="tests.CheckOutTest"/>
+	        </classes>
+	    </test>
+	    <test name="YourOrdersTest">
+	        <classes>
+	            <class name="tests.YourOrdersTest"/>
+	        </classes>
+	    </test>
+</suite>
