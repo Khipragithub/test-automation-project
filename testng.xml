@@ -31,4 +31,12 @@
 	            <class name="tests.YourOrdersTest"/>
 	        </classes>
 	    </test>
+	    <test name="PostsAPI">
+	        <classes>
+	            <class name="api.posts.GetPostsAPI"/>
+	            <class name="api.posts.CreatePostAPI"/>
+	            <class name="api.posts.UpdatePostAPI"/>
+	            <class name="api.posts.DeletePostAPI"/>
+	        </classes>
+	    </test>
 </suite>
